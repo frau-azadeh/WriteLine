@@ -64,6 +64,9 @@ namespace WriteLine
 
             int total12 = tonumber12 + tonumber21;
             Console.WriteLine("sum is: " + total12);
+         
+
+
 
             Console.ReadKey();
 
