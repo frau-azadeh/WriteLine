@@ -15,7 +15,12 @@ namespace WriteLine
             Console.WriteLine("hello");
             Console.WriteLine("My name");
             Console.WriteLine(c);
-            Console.ReadKey();
+            //convert int to string
+            int sum = 56;
+            string total = Convert.ToString(sum);
+            Console.WriteLine(total);
+            Console.ReadLine();
+
 
 
         }
