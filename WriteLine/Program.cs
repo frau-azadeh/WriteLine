@@ -8,6 +8,8 @@ namespace WriteLine
         {
             //this is a comment
             Console.WriteLine("hello");
+            Console.WriteLine("My name");
+            Console.ReadKey();
 
 
         }
