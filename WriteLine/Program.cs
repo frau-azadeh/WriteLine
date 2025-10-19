@@ -29,6 +29,18 @@ namespace WriteLine
             numberTotal ++;
             Console.WriteLine(numberTotal);
 
+            //get to number and sum
+            Console.WriteLine("Please Enter your first number:");
+            string firstNumber = Console.ReadLine();
+            Console.WriteLine("Please enter your second number:");
+            string secondNumber = Console.ReadLine();
+
+            int first = Convert.ToInt32(firstNumber);
+            int second = Convert.ToInt32(secondNumber);
+
+            int sumtotal = first + second;
+            Console.WriteLine("total is:"+sumtotal);
+
             Console.ReadKey();
 
 
