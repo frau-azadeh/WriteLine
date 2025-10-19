@@ -41,9 +41,34 @@ namespace WriteLine
             int sumtotal = first + second;
             Console.WriteLine("total is:"+sumtotal);
 
+            //handler error with try catch
+            int tonumber12 = 0;
+            int tonumber21 = 0;
+
+            try
+            {
+                Console.WriteLine("please enter your number:");
+                string number12 = Console.ReadLine();
+                Console.WriteLine("please enter your second number:");
+                string number21 = Console.ReadLine();
+
+                tonumber12 = Convert.ToInt32(number12);
+                tonumber21 = Convert.ToInt32(number21);
+            }
+            catch
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("you must enter number!");
+                Console.ResetColor();
+            }
+
+            int total12 = tonumber12 + tonumber21;
+            Console.WriteLine("sum is: " + total12);
+         
+
+
+
             Console.ReadKey();
-
-
 
         }
     }
