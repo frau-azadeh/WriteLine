@@ -19,7 +19,17 @@ namespace WriteLine
             int sum = 56;
             string total = Convert.ToString(sum);
             Console.WriteLine(total);
-            Console.ReadLine();
+            //convert string to int
+            string number1 = "5";
+            string number2 = "6";
+
+            string number = number1 + number2;
+            Console.WriteLine(number);
+            int numberTotal = Convert.ToInt32(number);
+            numberTotal ++;
+            Console.WriteLine(numberTotal);
+
+            Console.ReadKey();
 
 
 
