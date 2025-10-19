@@ -7,7 +7,7 @@ namespace WriteLine
         static void Main(string[] args)
         {
             //this is a comment
-            Console.WriteLine("hi");
+            Console.WriteLine("hello");
 
 
         }
