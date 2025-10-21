@@ -210,21 +210,22 @@ namespace WriteLine
             //    return name + " " + family;
             //}
 
-            SayHello();
-            SayHello("Iman");
-            Console.ReadLine();
-        }
-        static void SayHello()
-        {
-            Console.ForegroundColor = ConsoleColor.DarkMagenta;
-            Console.WriteLine("hi");
-            Console.ResetColor();
-        }
-        static void SayHello(string name)
-        {
-            Console.ForegroundColor = ConsoleColor.DarkYellow;
-            Console.WriteLine("hello " + name);
-            Console.ResetColor();
+            //    SayHello();
+            //    SayHello("Iman");
+            //    Console.ReadLine();
+            //}
+            //static void SayHello()
+            //{
+            //    Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            //    Console.WriteLine("hi");
+            //    Console.ResetColor();
+            //}
+            //static void SayHello(string name)
+            //{
+            //    Console.ForegroundColor = ConsoleColor.DarkYellow;
+            //    Console.WriteLine("hello " + name);
+            //    Console.ResetColor();
+            //}
         }
     }
 
