@@ -135,7 +135,15 @@ namespace WriteLine
             //    Console.WriteLine("the number is " + i);
             //}
 
+            //int[] numbers = { 1, 5, 3, 7 };
+            //int number = numbers[3];
 
+            string[] Names = { "ali", "Hamed", "Hasan" }; 
+            for(int i=0; i<=2; i++)
+            {
+                Console.WriteLine(Names[i].ToLower());
+            }
+ 
 
 
             Console.ReadKey();
