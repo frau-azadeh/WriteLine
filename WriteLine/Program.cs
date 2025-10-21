@@ -138,10 +138,18 @@ namespace WriteLine
             //int[] numbers = { 1, 5, 3, 7 };
             //int number = numbers[3];
 
-            string[] Names = { "ali", "Hamed", "Hasan" }; 
+            //string[] Names = { "ali", "Hamed", "Hasan" }; 
+            //for(int i=0; i<=2; i++)
+            //{
+            //    Console.WriteLine(Names[i].ToLower());
+            //}
+
+            string[] Names = { "ali", "hasan", "hosein" };
             for(int i=0; i<=2; i++)
             {
-                Console.WriteLine(Names[i].ToLower());
+                string name = Names[i].ToLower();
+                string changeName = char.ToUpper(name[0]) + name.Substring(1);
+                Console.WriteLine(changeName);
             }
  
 
