@@ -69,7 +69,8 @@ namespace WriteLine
             string name = "";
             Console.WriteLine("Please Enter ypur name:");
             name = Console.ReadLine();
-            if(name == "Azadeh")
+            name = name.ToLower();
+            if(name == "azadeh")
             {
                 Console.WriteLine($"Hello {name}");
             }
