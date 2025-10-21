@@ -109,27 +109,83 @@ namespace WriteLine
             //    Console.WriteLine("please enter your valid number");
             //}
 
-            Console.WriteLine("Please enter your number:");
+            //Console.WriteLine("Please enter your number:");
 
+            //try
+            //{
+            //    int number = Convert.ToInt32(Console.ReadLine());
+            //    switch (number % 2)
+            //    {
+            //        case 0:
+            //            Console.WriteLine("you enter even number");
+            //            break;
+
+            //        case 1:
+            //            Console.WriteLine("you enter odd number");
+            //            break;
+            //    }
+            //}
+            //catch(FormatException)
+            //{
+            //    Console.WriteLine("please enter number");
+            //}
+
+            //for(int i= 0; i < 20; i++)
+            //{
+            //    Console.WriteLine("the number is " + i);
+            //}
+
+            //int[] numbers = { 1, 5, 3, 7 };
+            //int number = numbers[3];
+
+            //string[] Names = { "ali", "Hamed", "Hasan" }; 
+            //for(int i=0; i<=2; i++)
+            //{
+            //    Console.WriteLine(Names[i].ToLower());
+            //}
+
+            //string[] Names = { "ali", "hasan", "hosein" };
+            //for(int i=0; i<=2; i++)
+            //{
+            //    string name = Names[i].ToLower();
+            //    string changeName = char.ToUpper(name[0]) + name.Substring(1);
+            //    Console.WriteLine(changeName);
+            //}
+
+            //int i = 0;
+            //while (i <= 20)
+            //{
+            //    Console.WriteLine("number is: " + i);
+            //    i++;
+            //}
             try
             {
-                int number = Convert.ToInt32(Console.ReadLine());
-                switch (number % 2)
+                Console.WriteLine("please enter your number: ");
+                int Number = Convert.ToInt32(Console.ReadLine());
+                string[] Names = new string[Number];
+                for(int i=0; i<Number; i++)
                 {
-                    case 0:
-                        Console.WriteLine("you enter even number");
-                        break;
+                    Console.WriteLine("Please enter name:" + (i + 1));
+                    Names[i] = Console.ReadLine();
+                }
+                foreach (string name in Names)
 
-                    case 1:
-                        Console.WriteLine("you enter odd number");
-                        break;
+                {
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("hello " + name);
+                    Console.ResetColor();
                 }
             }
             catch(FormatException)
             {
-                Console.WriteLine("please enter number");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Oops! please enter number");
+                Console.ResetColor();
             }
+            
+        
 
+ 
 
 
             Console.ReadKey();
