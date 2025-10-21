@@ -235,6 +235,17 @@ namespace WriteLine
             //Console.WriteLine("information is: " + show);
             //Console.ResetColor();
             //Console.ReadLine();
+
+            Car car1 = new Car();
+            car1.CarModel = "c300";
+            car1.CarName = "Benz";
+            car1.year = 2020;
+
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.WriteLine("Car Model"+ car1.CarModel +"Car Name" + " " + car1.CarName +"Car year" + " " + car1.year + " ");
+            Console.ResetColor();
+            Console.ReadLine();
+
         }
     }
 
