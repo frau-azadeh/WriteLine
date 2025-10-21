@@ -152,12 +152,12 @@ namespace WriteLine
             //    Console.WriteLine(changeName);
             //}
 
-            int i = 0;
-            while (i <= 20)
-            {
-                Console.WriteLine("number is: " + i);
-                i++;
-            }
+            //int i = 0;
+            //while (i <= 20)
+            //{
+            //    Console.WriteLine("number is: " + i);
+            //    i++;
+            //}
  
 
 
