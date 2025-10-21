@@ -158,38 +158,75 @@ namespace WriteLine
             //    Console.WriteLine("number is: " + i);
             //    i++;
             //}
-            try
-            {
-                Console.WriteLine("please enter your number: ");
-                int Number = Convert.ToInt32(Console.ReadLine());
-                string[] Names = new string[Number];
-                for(int i=0; i<Number; i++)
-                {
-                    Console.WriteLine("Please enter name:" + (i + 1));
-                    Names[i] = Console.ReadLine();
-                }
-                foreach (string name in Names)
+            //try
+            //{
+            //    Console.WriteLine("please enter your number: ");
+            //    int Number = Convert.ToInt32(Console.ReadLine());
+            //    string[] Names = new string[Number];
+            //    for(int i=0; i<Number; i++)
+            //    {
+            //        Console.WriteLine("Please enter name:" + (i + 1));
+            //        Names[i] = Console.ReadLine();
+            //    }
+            //    foreach (string name in Names)
 
-                {
-                    Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine("hello " + name);
-                    Console.ResetColor();
-                }
-            }
-            catch(FormatException)
-            {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Oops! please enter number");
-                Console.ResetColor();
-            }
-            
-        
+            //    {
+            //        Console.ForegroundColor = ConsoleColor.Yellow;
+            //        Console.WriteLine("hello " + name);
+            //        Console.ResetColor();
+            //    }
+            //}
+            //catch(FormatException)
+            //{
+            //    Console.ForegroundColor = ConsoleColor.Red;
+            //    Console.WriteLine("Oops! please enter number");
+            //    Console.ResetColor();
+            //}
 
- 
+            //    SayHello();
+            //    Console.ReadKey();
 
+            //}
+            //static void SayHello()
+            //{
+            //    Console.WriteLine("hello user");
+            //}
+            //    int sum = Sum(20, 15);
+            //    Console.ForegroundColor = ConsoleColor.Blue;
+            //    Console.WriteLine("sum is: " + sum);
+            //    Console.ReadLine();
+            //}
+            //static int Sum(int a, int b)
+            //{
+            //    return a + b;
+            //}
+            //    Console.ForegroundColor = ConsoleColor.DarkCyan;
+            //    Console.WriteLine(FullName("iman", "rad"));
+            //    Console.ResetColor();
+            //    Console.ReadLine();
+            //}
+            //static string FullName(string name, string family)
+            //{
+            //    return name + " " + family;
+            //}
 
-            Console.ReadKey();
-
+            //    SayHello();
+            //    SayHello("Iman");
+            //    Console.ReadLine();
+            //}
+            //static void SayHello()
+            //{
+            //    Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            //    Console.WriteLine("hi");
+            //    Console.ResetColor();
+            //}
+            //static void SayHello(string name)
+            //{
+            //    Console.ForegroundColor = ConsoleColor.DarkYellow;
+            //    Console.WriteLine("hello " + name);
+            //    Console.ResetColor();
+            //}
         }
     }
+
 }
