@@ -191,14 +191,23 @@ namespace WriteLine
             //{
             //    Console.WriteLine("hello user");
             //}
-            int sum = Sum(20, 15);
-            Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine("sum is: " + sum);
+            //    int sum = Sum(20, 15);
+            //    Console.ForegroundColor = ConsoleColor.Blue;
+            //    Console.WriteLine("sum is: " + sum);
+            //    Console.ReadLine();
+            //}
+            //static int Sum(int a, int b)
+            //{
+            //    return a + b;
+            //}
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
+            Console.WriteLine(FullName("iman", "rad"));
+            Console.ResetColor();
             Console.ReadLine();
         }
-        static int Sum(int a, int b)
+        static string FullName(string name, string family)
         {
-            return a + b;
+            return name + " " + family;
         }
     }
 
