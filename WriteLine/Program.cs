@@ -67,12 +67,19 @@ namespace WriteLine
 
             //if and else
             string name = "";
+            string family = "";
+
             Console.WriteLine("Please Enter ypur name:");
             name = Console.ReadLine();
             name = name.ToLower();
-            if(name == "azadeh")
+
+            Console.WriteLine("Please enter family:");
+            family = Console.ReadLine();
+            family = family.ToLower();
+
+            if(name == "azadeh" || family =="sharifi")
             {
-                Console.WriteLine($"Hello {name}");
+                Console.WriteLine($"Hello {name} {family}");
             }
             else
             {
