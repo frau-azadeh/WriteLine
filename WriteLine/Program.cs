@@ -183,13 +183,13 @@ namespace WriteLine
             //    Console.ResetColor();
             //}
 
-            SayHello();
-            Console.ReadKey();
+        //    SayHello();
+        //    Console.ReadKey();
 
-        }
-        static void SayHello()
-        {
-            Console.WriteLine("hello user");
-        }
+        //}
+        //static void SayHello()
+        //{
+        //    Console.WriteLine("hello user");
+        //}
     }
 }
