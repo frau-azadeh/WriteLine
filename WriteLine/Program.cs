@@ -158,36 +158,31 @@ namespace WriteLine
             //    Console.WriteLine("number is: " + i);
             //    i++;
             //}
-            try
-            {
-                Console.WriteLine("please enter your number: ");
-                int Number = Convert.ToInt32(Console.ReadLine());
-                string[] Names = new string[Number];
-                for(int i=0; i<Number; i++)
-                {
-                    Console.WriteLine("Please enter name:" + (i + 1));
-                    Names[i] = Console.ReadLine();
-                }
-                foreach (string name in Names)
+            //try
+            //{
+            //    Console.WriteLine("please enter your number: ");
+            //    int Number = Convert.ToInt32(Console.ReadLine());
+            //    string[] Names = new string[Number];
+            //    for(int i=0; i<Number; i++)
+            //    {
+            //        Console.WriteLine("Please enter name:" + (i + 1));
+            //        Names[i] = Console.ReadLine();
+            //    }
+            //    foreach (string name in Names)
 
-                {
-                    Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine("hello " + name);
-                    Console.ResetColor();
-                }
-            }
-            catch(FormatException)
-            {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Oops! please enter number");
-                Console.ResetColor();
-            }
+            //    {
+            //        Console.ForegroundColor = ConsoleColor.Yellow;
+            //        Console.WriteLine("hello " + name);
+            //        Console.ResetColor();
+            //    }
+            //}
+            //catch(FormatException)
+            //{
+            //    Console.ForegroundColor = ConsoleColor.Red;
+            //    Console.WriteLine("Oops! please enter number");
+            //    Console.ResetColor();
+            //}
             
-        
-
- 
-
-
             Console.ReadKey();
 
         }
