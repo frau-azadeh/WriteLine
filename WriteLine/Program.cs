@@ -226,6 +226,55 @@ namespace WriteLine
             //    Console.WriteLine("hello " + name);
             //    Console.ResetColor();
             //}
+            //int sum = SumNumber.Sum(5, 6);
+            //Console.WriteLine("Sum is: " + sum);
+            //Console.ReadKey();
+
+            //string show = Information.fullName("Azadeh" , "sharifi");
+            //Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            //Console.WriteLine("information is: " + show);
+            //Console.ResetColor();
+            //Console.ReadLine();
+
+            //Car car1 = new Car();
+            //car1.CarModel = "c300";
+            //car1.CarName = "Benz";
+            //car1.year = 2020;
+
+            //Console.ForegroundColor = ConsoleColor.DarkYellow;
+            //Console.WriteLine("Car Model"+ car1.CarModel +"Car Name" + " " + car1.CarName +"Car year" + " " + car1.year + " ");
+            //Console.ResetColor();
+            //Console.ReadLine();
+
+            //User user1 = new User("Azadeh", "sharifi", 42);
+            //Console.WriteLine($"name: {user1.name} family: {user1.family} age: {user1.age} ");
+            //Console.ReadLine();
+
+            Console.WriteLine("Please enter personal number: ");
+            int number = Convert.ToInt32(Console.ReadLine());
+            User[] people = new User[number];
+
+            for(int i = 0; i<number; i++)
+            {
+                Console.WriteLine($"Please enter user[{(i + 1)}] name:");
+                String name = Console.ReadLine();
+
+                Console.WriteLine($"Please enter user[{(i + 1)}] family:");
+                string family = Console.ReadLine();
+
+                Console.WriteLine($"Please enter user [{(i + 1)}] age: ");
+                int age =Convert.ToInt32( Console.ReadLine());
+
+                User u = new User(name, family, age);
+                people[i] = u;
+            }
+            foreach(User user in people)
+            {
+                Console.WriteLine($"Name: {user.name} family: {user.family} age: {user.age}");
+                Console.ReadLine();
+            }
+
+
         }
     }
 
