@@ -130,10 +130,10 @@ namespace WriteLine
             //    Console.WriteLine("please enter number");
             //}
 
-            for(int i= 0; i < 20; i++)
-            {
-                Console.WriteLine("the number is " + i);
-            }
+            //for(int i= 0; i < 20; i++)
+            //{
+            //    Console.WriteLine("the number is " + i);
+            //}
 
 
 
