@@ -7,64 +7,128 @@ namespace WriteLine
         static void Main(string[] args)
         {
 
-            int a = 5;
-            int b = 6;
-            int c = a + b;
-            c = a * b;
+            //int a = 5;
+            //int b = 6;
+            //int c = a + b;
+            //c = a * b;
             //this is a comment
-            Console.WriteLine("hello");
-            Console.WriteLine("My name");
-            Console.WriteLine(c);
+            //Console.WriteLine("hello");
+            //Console.WriteLine("My name");
+            //Console.WriteLine(c);
             //convert int to string
-            int sum = 56;
-            string total = Convert.ToString(sum);
-            Console.WriteLine(total);
+            //int sum = 56;
+            //string total = Convert.ToString(sum);
+            //Console.WriteLine(total);
             //convert string to int
-            string number1 = "5";
-            string number2 = "6";
+            //string number1 = "5";
+            //string number2 = "6";
 
-            string number = number1 + number2;
-            Console.WriteLine(number);
-            int numberTotal = Convert.ToInt32(number);
-            numberTotal ++;
-            Console.WriteLine(numberTotal);
+            //string number = number1 + number2;
+            //Console.WriteLine(number);
+            //int numberTotal = Convert.ToInt32(number);
+            //numberTotal++;
+            //Console.WriteLine(numberTotal);
 
             //get to number and sum
-            Console.WriteLine("Please Enter your first number:");
-            string firstNumber = Console.ReadLine();
-            Console.WriteLine("Please enter your second number:");
-            string secondNumber = Console.ReadLine();
+            //Console.WriteLine("Please Enter your first number:");
+            //string firstNumber = Console.ReadLine();
+            //Console.WriteLine("Please enter your second number:");
+            //string secondNumber = Console.ReadLine();
 
-            int first = Convert.ToInt32(firstNumber);
-            int second = Convert.ToInt32(secondNumber);
+            //int first = Convert.ToInt32(firstNumber);
+            //int second = Convert.ToInt32(secondNumber);
 
-            int sumtotal = first + second;
-            Console.WriteLine("total is:"+sumtotal);
+            //int sumtotal = first + second;
+            //Console.WriteLine("total is:" + sumtotal);
 
             //handler error with try catch
-            int tonumber12 = 0;
-            int tonumber21 = 0;
+            //int tonumber12 = 0;
+            //int tonumber21 = 0;
+
+            //try
+            //{
+            //    Console.WriteLine("please enter your number:");
+            //    string number12 = Console.ReadLine();
+            //    Console.WriteLine("please enter your second number:");
+            //    string number21 = Console.ReadLine();
+
+            //    tonumber12 = Convert.ToInt32(number12);
+            //    tonumber21 = Convert.ToInt32(number21);
+            //}
+            //catch
+            //{
+            //    Console.ForegroundColor = ConsoleColor.Red;
+            //    Console.WriteLine("you must enter number!");
+            //    Console.ResetColor();
+            //}
+
+            //int total12 = tonumber12 + tonumber21;
+            //Console.WriteLine("sum is: " + total12);
+
+            //if and else
+            //string name = "";
+            //string family = "";
+
+            //Console.WriteLine("Please Enter ypur name:");
+            //name = Console.ReadLine();
+            //name = name.ToLower();
+
+            //Console.WriteLine("Please enter family:");
+            //family = Console.ReadLine();
+            //family = family.ToLower();
+
+            //if(name == "azadeh" || family =="sharifi")
+            //{
+            //    Console.WriteLine($"Hello {name} {family}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("please login");
+            //}
+            // if else example
+            //try
+            //{
+            //    Console.WriteLine("please enter your number: ");
+            //    int number = Convert.ToInt32(Console.ReadLine());
+
+            //    if (number == 2)
+            //    {
+            //        Console.WriteLine("you enter even number");
+            //    }
+            //    if (number == 1)
+            //    {
+            //        Console.WriteLine("you enter odd number");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("you enter number");
+            //    }
+            //}
+            //catch(FormatException)
+            //{
+            //    Console.WriteLine("please enter your valid number");
+            //}
+
+            Console.WriteLine("Please enter your number:");
 
             try
             {
-                Console.WriteLine("please enter your number:");
-                string number12 = Console.ReadLine();
-                Console.WriteLine("please enter your second number:");
-                string number21 = Console.ReadLine();
+                int number = Convert.ToInt32(Console.ReadLine());
+                switch (number % 2)
+                {
+                    case 0:
+                        Console.WriteLine("you enter even number");
+                        break;
 
-                tonumber12 = Convert.ToInt32(number12);
-                tonumber21 = Convert.ToInt32(number21);
+                    case 1:
+                        Console.WriteLine("you enter odd number");
+                        break;
+                }
             }
-            catch
+            catch(FormatException)
             {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("you must enter number!");
-                Console.ResetColor();
+                Console.WriteLine("please enter number");
             }
-
-            int total12 = tonumber12 + tonumber21;
-            Console.WriteLine("sum is: " + total12);
-         
 
 
 
