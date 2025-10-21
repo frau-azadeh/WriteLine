@@ -246,9 +246,9 @@ namespace WriteLine
             //Console.ResetColor();
             //Console.ReadLine();
 
-            User user1 = new User("Azadeh", "sharifi", 42);
-            Console.WriteLine($"name: {user1.name} family: {user1.family} age: {user1.age} ");
-            Console.ReadLine();
+            //User user1 = new User("Azadeh", "sharifi", 42);
+            //Console.WriteLine($"name: {user1.name} family: {user1.family} age: {user1.age} ");
+            //Console.ReadLine();
 
         }
     }
