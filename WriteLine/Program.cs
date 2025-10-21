@@ -226,9 +226,9 @@ namespace WriteLine
             //    Console.WriteLine("hello " + name);
             //    Console.ResetColor();
             //}
-            int sum = SumNumber.Sum(5, 6);
-            Console.WriteLine("Sum is: " + sum);
-            Console.ReadKey();
+            //int sum = SumNumber.Sum(5, 6);
+            //Console.WriteLine("Sum is: " + sum);
+            //Console.ReadKey();
         }
     }
 
