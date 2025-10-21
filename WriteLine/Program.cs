@@ -182,9 +182,14 @@ namespace WriteLine
             //    Console.WriteLine("Oops! please enter number");
             //    Console.ResetColor();
             //}
-            
+
+            SayHello();
             Console.ReadKey();
 
+        }
+        static void SayHello()
+        {
+            Console.WriteLine("hello user");
         }
     }
 }
