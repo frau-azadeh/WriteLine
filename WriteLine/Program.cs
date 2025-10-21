@@ -109,6 +109,26 @@ namespace WriteLine
             //    Console.WriteLine("please enter your valid number");
             //}
 
+            Console.WriteLine("Please enter your number:");
+
+            try
+            {
+                int number = Convert.ToInt32(Console.ReadLine());
+                switch (number % 2)
+                {
+                    case 0:
+                        Console.WriteLine("you enter even number");
+                        break;
+
+                    case 1:
+                        Console.WriteLine("you enter odd number");
+                        break;
+                }
+            }
+            catch(FormatException)
+            {
+                Console.WriteLine("please enter number");
+            }
 
 
 
