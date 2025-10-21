@@ -229,6 +229,12 @@ namespace WriteLine
             //int sum = SumNumber.Sum(5, 6);
             //Console.WriteLine("Sum is: " + sum);
             //Console.ReadKey();
+
+            string show = Information.fullName("Azadeh" , "sharifi");
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.WriteLine("information is: " + show);
+            Console.ResetColor();
+            Console.ReadLine();
         }
     }
 
