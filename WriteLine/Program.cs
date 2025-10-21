@@ -86,28 +86,28 @@ namespace WriteLine
             //    Console.WriteLine("please login");
             //}
             // if else example
-            try
-            {
-                Console.WriteLine("please enter your number: ");
-                int number = Convert.ToInt32(Console.ReadLine());
+            //try
+            //{
+            //    Console.WriteLine("please enter your number: ");
+            //    int number = Convert.ToInt32(Console.ReadLine());
 
-                if (number == 2)
-                {
-                    Console.WriteLine("you enter even number");
-                }
-                if (number == 1)
-                {
-                    Console.WriteLine("you enter odd number");
-                }
-                else
-                {
-                    Console.WriteLine("you enter number");
-                }
-            }
-            catch(FormatException)
-            {
-                Console.WriteLine("please enter your valid number");
-            }
+            //    if (number == 2)
+            //    {
+            //        Console.WriteLine("you enter even number");
+            //    }
+            //    if (number == 1)
+            //    {
+            //        Console.WriteLine("you enter odd number");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("you enter number");
+            //    }
+            //}
+            //catch(FormatException)
+            //{
+            //    Console.WriteLine("please enter your valid number");
+            //}
 
 
 
