@@ -183,13 +183,23 @@ namespace WriteLine
             //    Console.ResetColor();
             //}
 
-        //    SayHello();
-        //    Console.ReadKey();
+            //    SayHello();
+            //    Console.ReadKey();
 
-        //}
-        //static void SayHello()
-        //{
-        //    Console.WriteLine("hello user");
-        //}
+            //}
+            //static void SayHello()
+            //{
+            //    Console.WriteLine("hello user");
+            //}
+            int sum = Sum(20, 15);
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("sum is: " + sum);
+            Console.ReadLine();
+        }
+        static int Sum(int a, int b)
+        {
+            return a + b;
+        }
     }
+
 }
