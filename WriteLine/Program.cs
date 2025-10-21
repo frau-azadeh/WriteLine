@@ -144,12 +144,19 @@ namespace WriteLine
             //    Console.WriteLine(Names[i].ToLower());
             //}
 
-            string[] Names = { "ali", "hasan", "hosein" };
-            for(int i=0; i<=2; i++)
+            //string[] Names = { "ali", "hasan", "hosein" };
+            //for(int i=0; i<=2; i++)
+            //{
+            //    string name = Names[i].ToLower();
+            //    string changeName = char.ToUpper(name[0]) + name.Substring(1);
+            //    Console.WriteLine(changeName);
+            //}
+
+            int i = 0;
+            while (i <= 20)
             {
-                string name = Names[i].ToLower();
-                string changeName = char.ToUpper(name[0]) + name.Substring(1);
-                Console.WriteLine(changeName);
+                Console.WriteLine("number is: " + i);
+                i++;
             }
  
 
