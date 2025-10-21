@@ -200,15 +200,15 @@ namespace WriteLine
             //{
             //    return a + b;
             //}
-            Console.ForegroundColor = ConsoleColor.DarkCyan;
-            Console.WriteLine(FullName("iman", "rad"));
-            Console.ResetColor();
-            Console.ReadLine();
-        }
-        static string FullName(string name, string family)
-        {
-            return name + " " + family;
-        }
+        //    Console.ForegroundColor = ConsoleColor.DarkCyan;
+        //    Console.WriteLine(FullName("iman", "rad"));
+        //    Console.ResetColor();
+        //    Console.ReadLine();
+        //}
+        //static string FullName(string name, string family)
+        //{
+        //    return name + " " + family;
+        //}
     }
 
 }
