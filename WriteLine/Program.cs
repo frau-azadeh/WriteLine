@@ -66,25 +66,25 @@ namespace WriteLine
             //Console.WriteLine("sum is: " + total12);
 
             //if and else
-            string name = "";
-            string family = "";
+            //string name = "";
+            //string family = "";
 
-            Console.WriteLine("Please Enter ypur name:");
-            name = Console.ReadLine();
-            name = name.ToLower();
+            //Console.WriteLine("Please Enter ypur name:");
+            //name = Console.ReadLine();
+            //name = name.ToLower();
 
-            Console.WriteLine("Please enter family:");
-            family = Console.ReadLine();
-            family = family.ToLower();
+            //Console.WriteLine("Please enter family:");
+            //family = Console.ReadLine();
+            //family = family.ToLower();
 
-            if(name == "azadeh" || family =="sharifi")
-            {
-                Console.WriteLine($"Hello {name} {family}");
-            }
-            else
-            {
-                Console.WriteLine("please login");
-            }
+            //if(name == "azadeh" || family =="sharifi")
+            //{
+            //    Console.WriteLine($"Hello {name} {family}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("please login");
+            //}
          
 
 
