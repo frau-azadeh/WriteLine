@@ -250,29 +250,29 @@ namespace WriteLine
             //Console.WriteLine($"name: {user1.name} family: {user1.family} age: {user1.age} ");
             //Console.ReadLine();
 
-            Console.WriteLine("Please enter personal number: ");
-            int number = Convert.ToInt32(Console.ReadLine());
-            User[] people = new User[number];
+            //Console.WriteLine("Please enter personal number: ");
+            //int number = Convert.ToInt32(Console.ReadLine());
+            //User[] people = new User[number];
 
-            for(int i = 0; i<number; i++)
-            {
-                Console.WriteLine($"Please enter user[{(i + 1)}] name:");
-                String name = Console.ReadLine();
+            //for(int i = 0; i<number; i++)
+            //{
+            //    Console.WriteLine($"Please enter user[{(i + 1)}] name:");
+            //    String name = Console.ReadLine();
 
-                Console.WriteLine($"Please enter user[{(i + 1)}] family:");
-                string family = Console.ReadLine();
+            //    Console.WriteLine($"Please enter user[{(i + 1)}] family:");
+            //    string family = Console.ReadLine();
 
-                Console.WriteLine($"Please enter user [{(i + 1)}] age: ");
-                int age =Convert.ToInt32( Console.ReadLine());
+            //    Console.WriteLine($"Please enter user [{(i + 1)}] age: ");
+            //    int age =Convert.ToInt32( Console.ReadLine());
 
-                User u = new User(name, family, age);
-                people[i] = u;
-            }
-            foreach(User user in people)
-            {
-                Console.WriteLine($"Name: {user.name} family: {user.family} age: {user.age}");
-                Console.ReadLine();
-            }
+            //    User u = new User(name, family, age);
+            //    people[i] = u;
+            //}
+            //foreach(User user in people)
+            //{
+            //    Console.WriteLine($"Name: {user.name} family: {user.family} age: {user.age}");
+            //    Console.ReadLine();
+            //}
 
 
         }
