@@ -4,17 +4,22 @@ using System.Text;
 
 namespace WriteLine
 {
-    class User
+    class User:IMInterface1
     {
-        public string name;
-        public string family;
-        public int age;
+        //public string name;
+        //public string family;
+        //public int age;
 
-        public User(string name, string family, int age)
+        //public User(string name, string family, int age)
+        //{
+        //    this.name = name;
+        //    this.family = family;
+        //    this.age = age;
+        //}
+
+        public string HelloUser(string name)
         {
-            this.name = name;
-            this.family = family;
-            this.age = age;
+            return "Hello user" + name;
         }
     }
 }
