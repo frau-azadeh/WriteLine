@@ -325,13 +325,13 @@ namespace WriteLine
             //     Console.ReadKey();
             // }
 
-            User user = new User();
-            Console.WriteLine(user.HelloUser("user iman"));
+            //User user = new User();
+            //Console.WriteLine(user.HelloUser("user iman"));
 
-            Admin admin = new Admin();
-            Console.WriteLine(admin.HelloAdmin("admin iman"));
+            //Admin admin = new Admin();
+            //Console.WriteLine(admin.HelloAdmin("admin iman"));
 
-            Console.ReadKey();
+            //Console.ReadKey();
             
         }
     }
