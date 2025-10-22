@@ -302,6 +302,13 @@ namespace WriteLine
             //Console.ResetColor();
 
             //Console.ReadKey();
+            //Motor barghi = new Motor();
+            //barghi.Speed = 90;
+
+            //Console.ForegroundColor = ConsoleColor.Blue;
+            //Console.WriteLine($"Speed is {barghi.Speed}");
+            //Console.ResetColor();
+            //Console.ReadKey();
 
 
         }
