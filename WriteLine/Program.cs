@@ -311,19 +311,19 @@ namespace WriteLine
             //Console.ResetColor();
             //Console.ReadKey();
 
-            List<int> number = new List<int>();
+           // List<int> number = new List<int>();
 
-            number.Add(5);
-            number.Add(8);
-            number.Add(3);
-            number.Remove(8);
-            number.RemoveAt(0);
+           // number.Add(5);
+           // number.Add(8);
+           // number.Add(3);
+           // number.Remove(8);
+           // number.RemoveAt(0);
 
-           foreach(int num in number)
-            {
-                Console.WriteLine($"name is : {num}");
-                Console.ReadKey();
-            }
+           //foreach(int num in number)
+           // {
+           //     Console.WriteLine($"name is : {num}");
+           //     Console.ReadKey();
+           // }
             
         }
     }
