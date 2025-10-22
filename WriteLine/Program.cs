@@ -332,7 +332,29 @@ namespace WriteLine
             //Console.WriteLine(admin.HelloAdmin("admin iman"));
 
             //Console.ReadKey();
-            
+
+            //List<Person> people = new List<Person>();
+
+            //Person p1 = new Person();
+            //p1.Name = "Azadeh";
+            //p1.Family = "Sharifi Soltani";
+            //p1.Age = 42;
+            //people.Add(p1);
+
+            //Person p2 = new Person();
+            //p2.Name = "Arezou";
+            //p2.Family = "Sharifi Soltani";
+            //p2.Age = 46;
+            //people.Add(p2);
+
+
+            //foreach(Person p in people)
+            //{
+            //    Console.WriteLine($"Name: {p.Name}  Family: {p.Family} Age: {p.Age}");
+               
+                   
+            //}
+            //Console.ReadKey();
         }
     }
 
