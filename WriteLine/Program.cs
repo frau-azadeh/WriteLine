@@ -295,13 +295,13 @@ namespace WriteLine
             //Console.WriteLine(MyFlower.phoneNumber);
 
             //Console.ReadLine();
-            Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine(Parent.Sum(5, 6));
-            Console.WriteLine(Parent.Minus(10, 8));
-            Console.WriteLine(Child.multiply(6, 8));
-            Console.ResetColor();
+            //Console.ForegroundColor = ConsoleColor.Blue;
+            //Console.WriteLine(Parent.Sum(5, 6));
+            //Console.WriteLine(Parent.Minus(10, 8));
+            //Console.WriteLine(Child.multiply(6, 8));
+            //Console.ResetColor();
 
-            Console.ReadKey();
+            //Console.ReadKey();
 
 
         }
