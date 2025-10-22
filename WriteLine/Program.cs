@@ -274,27 +274,27 @@ namespace WriteLine
             //    Console.ReadLine();
             //}
 
-            MyFlower flower1 = new MyFlower();
-            flower1.name = "zamfolya";
-            flower1.color = "green";
-            flower1.quantity = "25";
-            flower1.price = "4000";
+            //MyFlower flower1 = new MyFlower();
+            //flower1.name = "zamfolya";
+            //flower1.color = "green";
+            //flower1.quantity = "25";
+            //flower1.price = "4000";
 
-            MyFlower.flowerShopName = "poone";
-            MyFlower.address = "tehran";
-            MyFlower.phoneNumber = "09122764435";
+            //MyFlower.flowerShopName = "poone";
+            //MyFlower.address = "tehran";
+            //MyFlower.phoneNumber = "09122764435";
 
-            Console.ForegroundColor = ConsoleColor.DarkYellow;
-            Console.WriteLine(flower1.name);
-            Console.WriteLine(flower1.color);
-            Console.WriteLine(flower1.quantity);
-            Console.WriteLine(flower1.price);
+            //Console.ForegroundColor = ConsoleColor.DarkYellow;
+            //Console.WriteLine(flower1.name);
+            //Console.WriteLine(flower1.color);
+            //Console.WriteLine(flower1.quantity);
+            //Console.WriteLine(flower1.price);
 
-            Console.WriteLine(MyFlower.flowerShopName);
-            Console.WriteLine(MyFlower.address);
-            Console.WriteLine(MyFlower.phoneNumber);
+            //Console.WriteLine(MyFlower.flowerShopName);
+            //Console.WriteLine(MyFlower.address);
+            //Console.WriteLine(MyFlower.phoneNumber);
 
-            Console.ReadLine();
+            //Console.ReadLine();
 
         }
     }
