@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 
 namespace WriteLine
 {
@@ -351,11 +352,22 @@ namespace WriteLine
             //foreach(Person p in people)
             //{
             //    Console.WriteLine($"Name: {p.Name}  Family: {p.Family} Age: {p.Age}");
-               
-                   
+
+
             //}
             //Console.ReadKey();
+
+            //    Console.WriteLine(DateTime.Now);
+            //    PersianCalendar persian = new PersianCalender();
+            //    string persionDate = persian.GetYear(DateTime.Now) + "/" + persian.GetMonth(DateTime.Now) + "/" + persian.GetDayOfMonth(DateTime.Now);
+            //    Console.WriteLine(persionDate);
+            //    //List<string>
+            //    Console.ReadKey();
+            //}
         }
     }
 
+    //internal class PersianCalender : PersianCalendar
+    //{
+    //}
 }
