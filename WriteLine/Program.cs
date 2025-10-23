@@ -357,16 +357,17 @@ namespace WriteLine
             //}
             //Console.ReadKey();
 
-            Console.WriteLine(DateTime.Now);
-            PersianCalendar persian = new PersianCalender();
-            string persionDate = persian.GetYear(DateTime.Now) + "/" + persian.GetMonth(DateTime.Now) + "/" + persian.GetDayOfMonth(DateTime.Now);
-            Console.WriteLine(persionDate);
-            //List<string>
-            Console.ReadKey();
+            //    Console.WriteLine(DateTime.Now);
+            //    PersianCalendar persian = new PersianCalender();
+            //    string persionDate = persian.GetYear(DateTime.Now) + "/" + persian.GetMonth(DateTime.Now) + "/" + persian.GetDayOfMonth(DateTime.Now);
+            //    Console.WriteLine(persionDate);
+            //    //List<string>
+            //    Console.ReadKey();
+            //}
         }
     }
 
-    internal class PersianCalender : PersianCalendar
-    {
-    }
+    //internal class PersianCalender : PersianCalendar
+    //{
+    //}
 }
